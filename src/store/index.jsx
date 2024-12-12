@@ -5,8 +5,8 @@ const initialState = {
   text: {
     id: id++,
     content: "",
-    color: "palevioletred",
-    size: "15",
+    color: "",
+    size: "",
   },
   texts: [],
 };

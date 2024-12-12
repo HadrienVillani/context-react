@@ -1,5 +1,6 @@
 import React from "react";
 import { useTextContext } from "../context/TextContext";
+
 function TextItem({ text }) {
   const [state, dispatch] = useTextContext();
   const handleDelete = () => {
